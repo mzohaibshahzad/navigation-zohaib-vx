@@ -113,9 +113,16 @@ img {
         -webkit-transition: .5s;
         transition: .5s;
     }
+
+    .nav__content {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .nav__content {
+    display: flex;
+    justify-content: space-between;
     height: 100%;
     -ms-grid-rows: max-content 1fr max-content;
     grid-template-rows: -webkit-max-content 1fr -webkit-max-content;
